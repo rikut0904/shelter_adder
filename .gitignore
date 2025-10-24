@@ -1,0 +1,28 @@
+# 環境変数ファイル（機密情報が含まれるため）
+.env
+
+# Go のビルド成果物
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+shelter_adder
+
+# テストの出力
+*.test
+*.out
+
+# Go の作業ディレクトリ
+/vendor/
+
+# IDE の設定ファイル
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS 固有のファイル
+.DS_Store
+Thumbs.db
